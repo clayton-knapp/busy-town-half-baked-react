@@ -16,6 +16,8 @@ body {
 
 .traffic .vehicle {
   margin: 10px;
+  /* width: 20px;
+  height: 20px; */
 }
 
 .traffic-light {
