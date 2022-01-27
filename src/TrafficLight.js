@@ -14,7 +14,7 @@ export default function TrafficLight(props) {
 
 
       {/* for example, the css classes for the div below should be `red circle on`, if props.color is 'red' */}
-      {/* ONE SOLUTION - CONDITIONAL RENDERING */}
+      {/* ONE SOLUTION - TERNARY TO RENDER ALL CLASS NAMES */}
       <div className={
         (props.color === 'red')
           ? 'red circle on'
