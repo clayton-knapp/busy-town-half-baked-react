@@ -17,9 +17,6 @@ function App() {
   // traffic is complicated. It should be an array of strings that starts out as ['car', 'truck']
   const [traffic, setTraffic] = useState(['car', 'truck', 'bus', 'motorcycle', 'car', 'bus', 'truck']);
 
-  console.log(traffic);
-
-
   return (
     <div className="App">
       <div className="fight">
